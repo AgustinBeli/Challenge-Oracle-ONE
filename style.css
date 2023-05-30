@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background: linear-gradient(45deg, aqua, orange, yellow);
+    margin: 0;
+    padding: 0;
+}
+.logoBox {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 83px;
+}
+
+.sectionOne {
+    text-align: center;
+}
+
+.sectionOne .textBoxContainer .textBox {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.sectionOne .warning {
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+    gap: 4px;
+}
+
+.sectionTwo {
+    width: 100px;
+    height: 300px;
+    margin: 10px;
+}
+
+.sectionTwo .buttonBoxContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100%;
+    gap: 10px;
+    border-radius: 10px;
+}
+.sectionTwo .buttonBoxContainer .buttonEncrypt, .buttonDecrypt, .buttonCopy {
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.sectionThree  {
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.sectionThree .result {
+    padding: 10px 10px 0px 10px;
+}
+
+.sectionThree .buttonBoxContainerTwo {
+    margin-top: 320px;
+}
+
+.end {
+    text-align: center;
+    margin: 90px;
+}
+.ocultar {
+    display: none;
+}

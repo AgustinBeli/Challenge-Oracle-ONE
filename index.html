@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon">
+    <title>Encriptador y Desencriptador Alura</title>
+</head>
+<body>
+    <header class="logoBox">
+        <img class="logo" src="./imagenes/Logo.svg" alt="logo">
+    </header>
+    <main class="container">
+        <section class="sectionOne">
+            <div class="textBoxContainer">
+                <textarea class="textBox" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <div class="warning">
+                    <img src="./imagenes/LogoWarning.svg" alt="warning">               
+                    <p>Solo minúsculas y sin acentos</p>
+               
+            </div>
+        </section>
+        <section class="sectionTwo">
+            <div class="buttonBoxContainer">
+                <input class="buttonEncrypt" type="button" value="Encriptar">
+                <input class="buttonDecrypt" type="button" value="Desencriptar">
+            </div>
+        </section>
+        <section class="sectionThree">
+            <div class="result">
+                <p></p>
+            </div>
+            <div class="textEncrypt">
+                <p>Aquí aparecera el texto encriptado o desencriptado</p>
+            </div>
+            <div class="buttonBoxContainerTwo">
+                <input class="buttonCopy" type="button" value="Copiar">
+            </div>
+            
+        </section>
+    </main>
+    <footer class="end">
+        <p>© Copyright Agustin Belizan</p>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
